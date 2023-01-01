@@ -106,4 +106,5 @@ def menu():
         exit()
     else:
         print("\n Not Valid Choice Try again")
+        menu()
 
