@@ -29,7 +29,7 @@ class Ferme():
          
     def crier(self):
         if len(self.animaux)==0:
-            return print ("Ma ferme a",len(self.animaux),"animaux")
+            return print ("Ma ferme a",len(self.animaux),"animaux pour cri ")
         else: 
             for animal in self.animaux:
                 animal.cri()  
