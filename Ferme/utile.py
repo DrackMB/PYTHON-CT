@@ -60,7 +60,7 @@ def deleteData():
         
 # get number of animal in the farm 
 def lenAnimal(myData):
-    if(myData.animaux):
+    if(myData):
         return print ("Ma ferme a",len(myData.animaux),"animaux")
     else: 
         return print("err in data")  
